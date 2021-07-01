@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <!--　このサイトは何か説明する場所　-->
     <meta name="description" content="ポートフォリオ">
     <!--  タイトルの設定　-->
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
     <!--
         headerタグの作成
         ・ロゴの設定
@@ -71,12 +72,83 @@
                 </li>
             </ul>
         </div>
+    <!-- twitterの箱 -->
 
+        <div class="box-twitter">
+            <h2 class=sub-title>Projects</h2>
+            <img src="img/twitterclone.png" alt="twitterクローン画像">
+            <div class="twitter-clone">
+            <h3 class="twitter-title">Twitterクローン</h2>
+            <p>
+                <span class="A">Twitterの複製アプリです。</span>ツイートを投稿できます。<br>
+                PHP / MySQLを利用しています。
+            </p>
+            <h3>テストアカウント</h3>
+            <b>
+                Email  : Test@gmail.com<br>
+                Pass　: 123456
+            </b>
+                <ul class="link-list">
+                    <li >
+                        <a class="Website" href="">Website</a>
+                    </li>
+                    <li>
+                        <a  class="GitHub" href="">GitHub</a>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
 
-        <div class="box-twitter"></div>
-        <div class="box-netflix"></div>
+    <!-- netflixの箱 -->
+        <div class="box-netflix">
+            <img src="img/netflixclone.png" alt="twitterクローン画像">
+            <div class="netflix-clone">
+            <h2>Netflixクローン</h2>
+            <p>
+                Netflixの複製アプリです。<br>
+                Laravel / MySQLを利用しています。
+            </p>
+            <h3>テストアカウント</h3>
+            <b>
+                Email  : Test@gmail.com<br>
+                Pass&nbsp;&nbsp;:&nbsp;123456
+            </b>
+                <ul class="link-list">
+                    <li >
+                        <a class="Website2" href="">Website</a>
+                    </li>
+                    <li>
+                        <a  class="GitHub2" href="">GitHub</a>
+                    </li>
+                </ul>
+            
+            </div>
+
+        </div>
     </div>
 
+    <!-- contacts の箱　-->
+    <div class="contacts-box">
+        <h2>Contacts</h2>
+
+        <p>
+            <img src="img/phonelogo.png" alt="スマホロゴ">
+            +12 345 6789
+        </p>
+        <p>
+            <img src="img/emaillogo.png" alt="メールロゴ">
+            Support@techis.io
+        </p>
+    </div>
+
+    <!--  footer　-->
+    <footer>
+        <div> 
+            ©︎Fuyuko Matsui All rights reserved
+        </div>
+    </footer>
+</div>
 
 </body>
 </html>
